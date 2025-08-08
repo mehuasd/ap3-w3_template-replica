@@ -72,11 +72,8 @@
   color: #000;
 }
 
+/* --....banner.....- */
 
-
-
-
-/* --- */
 #banner {
   background-image: url("images/mac.jpg");
   background-position: center;
@@ -117,8 +114,8 @@
 }
 
 /* ------about--------- */
-.about-container {
-  padding: 128px 16px;
+#about{
+  padding: 120px 16px;
 }
 
 .agrid {
@@ -234,6 +231,9 @@ footer {
   }
 
   /* //  */
+  .bhead{
+    font-size: 45px;
+  }
   .agrid {
     display: grid;
     grid-template-columns: 1fr;
