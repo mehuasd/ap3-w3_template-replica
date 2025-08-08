@@ -19,7 +19,6 @@
   display: flex;
   align-items: center;
   margin: 0px;
-  /*padding: 0px; */
 }
 
 .logos {
@@ -34,7 +33,6 @@
 
 .navitem:hover {
   background: #cccccc;
-  padding: 16px;
 }
 
 .navlink {
@@ -94,14 +92,16 @@
 .bcontainer {
   padding: 48px;
   color: #fff;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   /* padding: 20px;  */
 }
 
 .bhead {
   font-size: 64px;
 }
-
+.acontent{
+  font-size: 15px;
+}
 .blink {
   text-decoration: none;
   margin-top: 12px;
