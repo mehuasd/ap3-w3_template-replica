@@ -11,14 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 </head>
-<style>
-    .container {
-        margin: 0;
-        width: 100%;
-    }
-</style>
 
-<body class="">
+<body>
     <section id="header">
         <div class="navbar7">
             <a href="" class="logos navitem">LOGO</a>
@@ -37,22 +31,20 @@
             </div>
         </div>
 
-
-
-    </section>
-
-    <section id="imp">
-
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas offcanvas-start show text-bg-dark" tabindex="-1" id="offcanvasTop"
+            aria-labelledby="offcanvasTopLabel">
             <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasTopLabel">Offcanvas top</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <h5 class="offcanvas-title" id="offcanvasTopLabel">Allahumma Barik اللهم بارك</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-                ...
+                <a href="#about" class="sm-navlist" type="button" data-bs-dismiss="offcanvas">ABOUT</a>
+                <a href="#team" class="sm-navlist">TEAM</a>
+                <a href="#work" class="sm-navlist">WORK</a>
+                <a href="#pricing" class="sm-navlist">PRICING</a>
+                <a href="#contact" class="sm-navlist">CONTACT</a>
             </div>
         </div>
-
     </section>
 
     <section id="banner"><br><br>
@@ -72,7 +64,7 @@
         </div>
     </section>
 
-    <section id="#about">
+    <section id="about">
         <div class="about-container">
             <h3 class="text-center">ABOUT THE COMPANY</h3><br>
             <h4 class="text-center">Key features of our company</h4><br>
@@ -291,52 +283,44 @@
             <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
             <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
         </div><br>
-        <form class="row g-3">
-            <div class="col-md-4">
-                <label for="validationDefault01" class="form-label">First name</label>
-                <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+        <form method="get" action="a.html">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="" required>
+                <label for="floatingInput">Name</label>
             </div>
-            <div class="col-md-4">
-                <label for="validationDefault02" class="form-label">Last name</label>
-                <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="" required>
+                <label for="floatingInput">Email address</label>
             </div>
-            <div class="col-md-4">
-                <label for="validationDefaultUsername" class="form-label">Username</label>
-                <div class="input-group">
-                    <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                    <input type="text" class="form-control" id="validationDefaultUsername"
-                        aria-describedby="inputGroupPrepend2" required>
-                </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="" required>
+                <label for="floatingInput">Subject</label>
             </div>
-            <div class="col-md-6">
-                <label for="validationDefault03" class="form-label">City</label>
-                <input type="text" class="form-control" id="validationDefault03" required>
-            </div>
-            <div class="col-md-3">
-                <label for="validationDefault04" class="form-label">State</label>
-                <select class="form-select" id="validationDefault04" required>
-                    <option selected disabled value="">Choose...</option>
-                    <option>...</option>
-                </select>
-            </div>
-            <div class="col-md-3">
-                <label for="validationDefault05" class="form-label">Zip</label>
-                <input type="text" class="form-control" id="validationDefault05" required>
-            </div>
-            <div class="col-12">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                    <label class="form-check-label" for="invalidCheck2">
-                        Agree to terms and conditions
-                    </label>
-                </div>
-            </div>
+
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                    style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Message</label>
+            </div><br>
             <div class="col-12">
                 <button class="btn btn-primary" type="submit">Send Message</button>
             </div>
-        </form>
+        </form><br><br>
         <img class="grayfilter75" src="images/map.jpg" alt="" width="100%" height="auto">
     </section>
+
+    <footer class="text-center bg-black text-white">
+        <a href="#" class="btn bg-white text-black p-2"><i class="fa fa-arrow-up me-2"></i> To the top</a>
+        <div class="m-3 fs-5">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+        <p>Powered by <a href="" class="">ASD</a></p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"

@@ -59,6 +59,25 @@
   font-size: 15px;
 }
 
+
+
+.sm-navlist {
+  display: block;
+  padding: 20px 10px;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+}
+
+.sm-navlist:hover {
+  background-color: #cccccc;
+  color: #000;
+}
+
+
+
+
+
 /* --- */
 #banner {
   background-image: url("images/mac.jpg");
@@ -184,19 +203,22 @@
   background-color: #f1f1f1;
   padding: 40px 0px;
 }
-.selected{
+
+.selected {
   height: 3500px;
 }
 
 /* ------------contact */
-#contact{
+#contact {
   padding: 100px 20px;
   background-color: #f1f1f1;
 }
 
 
-
-
+/* ------footer------ */
+footer {
+  padding: 64px 0px;
+}
 
 .hideiflg {
   display: none;
@@ -237,10 +259,17 @@
   #pricing {
     padding: 100px 120px;
   }
+  .offcanvas{
+    width: 70% !important;
+  }
 }
 
 @media (max-width: 1000px) {
   #pricing {
     padding: 100px 120px;
+  }
+
+  .hideifmd {
+    display: none;
   }
 }
