@@ -28,12 +28,19 @@
 
   /* //  */
   .bhead {
-    font-size: 45px;
+    font-size: 40px !important;
   }
+  .bcontainer{
+    padding: 40px 10px !important;
+  }
+  .blink {
+    font-size: 12px;
+  padding: 8px 15px !important;
+}
 
   .agrid {
-    display: grid;
-    grid-template-columns: 1fr;
+    /*display: grid;*/
+    grid-template-columns: 1fr !important;
 
   }
 
@@ -50,7 +57,7 @@
   }
 
   #team {
-    padding: 120px 120px !important;
+    padding: 120px 50px !important;
   }
 
   .offcanvas {
