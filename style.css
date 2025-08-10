@@ -166,6 +166,9 @@
   color: #757575;
 }
 
+.social > i:hover{
+  opacity: 0.7;
+}
 /* ------about--------- */
 #about {
   padding: 120px 16px;
@@ -248,7 +251,9 @@
   background-color: #f1f1f1;
   padding: 40px 0px;
 }
-
+.pimg:hover{
+  opacity: 0.6;
+}
 /* ------------contact */
 
 #contact {
